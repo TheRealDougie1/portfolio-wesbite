@@ -6,6 +6,9 @@
 	<h1>Hello {name}!</h1>
 	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
 </main>
+<footer>
+	<p>This is a footer</p>
+</footer>
 
 <style>
 	main {
@@ -27,4 +30,9 @@
 			max-width: none;
 		}
 	}
+
+	footer {
+        text-align: center;
+        background-color: grey;
+    }
 </style>
